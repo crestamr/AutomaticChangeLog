@@ -9,7 +9,8 @@
       {"type": "perf", "hidden": true},
       {"type": "test", "hidden": true}
     ],
+
+
     "commitUrlFormat": "https://github.com/crestamr/AutomaticChangeLog/commits/{{hash}}",
     "compareUrlFormat": "https://github.com/crestamr/AutomaticChangeLog/compare/{{previousTag}}...{{currentTag}}"
   }
-  
