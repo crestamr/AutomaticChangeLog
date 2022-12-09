@@ -80,6 +80,7 @@ Finally, we create a `.commitlintrc.json` file which extends the rules from [con
       "extends": ["@commitlint/config-conventional"]
     }
 
+
 Running `git commit` with an invalid message will now cause an error:
 
     ▶ git commit -m "this commit message is invalid"
@@ -121,6 +122,7 @@ Now we can create some npm scripts in our `package.json`:
         "release:patch": "standard-version --release-as patch",
         "release:major": "standard-version --release-as major"
       },
+
 
 The changelog generation can be configured via a `.versionrc.json` file or placing a `standard-version` stanza in your `package.json`.
 
